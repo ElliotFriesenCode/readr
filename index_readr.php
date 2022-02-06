@@ -4,7 +4,7 @@ if (isset($_POST["numA"])){
 }
 function addClick(){
     
-require 'init.php';
+require 'init_readr.php';
 
 $countQuery = $db->prepare("
 SELECT id, site_visits
@@ -32,7 +32,7 @@ $updateQuery->execute([
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Raleway:wght@200&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles_readr.css">
 </head>
 <body>
 <div class="corner">
