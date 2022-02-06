@@ -1,0 +1,146 @@
+p{
+    display: inline-block;
+    margin-left: 5px;
+   
+}
+
+.d{
+    vertical-align: middle;
+}
+.header{
+    font-family: 'Comforter', cursive;
+    font-size: 50px;
+    margin: 0;
+    height: 35px;
+    font-style: italic;
+    font-weight: 100;
+    width: 100px;
+}
+.header:hover{
+    font-family: 'Comforter', cursive;
+    font-size: 50px;
+    margin: 0;
+    color: rgb(233, 218, 153);
+    font-style: italic;
+    font-weight: 100;
+}
+.description{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+body{
+    width: 99%;
+   
+
+    background-color: #fbfbf0;
+    color: black;
+  
+  
+  
+}
+.paste{
+    width: 50%;
+    height: 30px;
+  
+    background-color: #fbfbf0;
+    border: none;
+    outline: none;
+    border-bottom: solid rgba(88, 78, 78, 0.692) 3px;
+    
+    color: black;
+    border-radius: 0px;
+}
+
+::placeholder{
+    color:rgba(0, 0, 0, 0.623);
+}
+.wpm{
+    margin: 0% 0.5%;
+    height: 30px;
+    width: 4%;
+   
+    background-color: #fbfbf0;
+    border: none;
+    outline: none;
+    border-bottom: solid rgba(88, 78, 78, 0.692) 3px;
+    
+    color:black;
+    border-radius: 0px;
+}
+.buttons{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin: 0% 0.5%;
+    width: 10%;
+    height: 30px;
+   
+    background-color: #f0f0da1f;
+    border: none;
+    outline: none;
+    border-bottom: solid rgba(88, 78, 78, 0.692) 3px;
+    
+  
+    color:black;
+    border-radius: 0px;
+    vertical-align: bottom;
+   
+}
+.buttons:hover{
+  
+    background-color: rgba(231, 219, 219, 0.726);
+   
+   
+    color:black;
+}
+.center{
+    text-align: center;
+   
+}
+.yo{
+    margin-top: 2%;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 2.5vh;
+}
+.corner{
+    margin: 15px;
+}
+.hey_holder{
+    text-align: center;
+    justify-content: center;
+}
+.hey{
+    font-size: 10vw;
+    font-family: 'Raleway', sans-serif;
+}
+.options{
+    height: 30px;
+   width: 7%;
+       font-family: 'Raleway', sans-serif;
+       font-weight: bold;
+    background-color: #f0f0da1f;
+    border: none;
+    outline: none;
+    border-bottom: solid rgba(88, 78, 78, 0.692) 3px;
+    border-radius: 0px;
+    color: black;
+}
+
+.options option{
+background-color:  #fbfbf0;
+color: black;
+
+}
+.options:hover{
+     background-color: rgba(231, 219, 219, 0.726);
+}
+select:focus{
+   
+    outline:none;
+}
+select{
+    text-align: center;
+}
