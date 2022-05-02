@@ -1,6 +1,4 @@
 # readr
-Code for readr.rf.gd 
-<br>
 A reading trainer
 <br>
 Languages Used:
